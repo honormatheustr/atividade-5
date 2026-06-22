@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="cadastro-page">
+
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>Conversa.com</strong></li>
+        </ul>
+
+        <ul>
+            <li><a href="index.html">Login</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="feed.html">Feed</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+        <h1>Cadastro</h1>
+
+        <form action="feed.html">
+
+            <label>
+                Nome
+                <input type="text" placeholder="Digite seu nome" required>
+            </label>
+
+            <label>
+                E-mail
+                <input type="email" placeholder="Digite seu e-mail" required>
+            </label>
+
+            <label>
+                Usuário
+                <input type="text" placeholder="Digite seu usuário" required>
+            </label>
+
+            <label>
+                Senha
+                <input type="password" placeholder="Digite sua senha" required>
+            </label>
+
+            <label>
+                Confirmar Senha
+                <input type="password" placeholder="Confirme sua senha" required>
+            </label>
+
+            <label>
+                Gênero
+                <select required>
+                    <option value="">Selecione</option>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                    <option>Outro</option>
+                </select>
+            </label>
+
+            <label>
+                Data de Nascimento
+                <input type="date" required>
+            </label>
+
+            <button type="submit">
+                Cadastrar
+            </button>
+
+        </form>
+
+        <p>
+            <a href="index.html">Já possuo uma conta</a>
+        </p>
+
+    </main>
+
+</body>
+</html>

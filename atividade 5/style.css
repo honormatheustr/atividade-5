@@ -1,0 +1,115 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+}
+
+/* Login */
+.login-page {
+    background-image: url('https://img.freepik.com/vetores-premium/um-grupo-de-pessoas-conversando-por-telefone-discute-um-projeto-conversa-em-grupo-no-chat-online_530733-2303.jpg?w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.login-card {
+    max-width: 500px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.links {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.links a {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+/* Cadastro */
+.cadastro-page {
+    background-color: white;
+}
+
+.cadastro-page main {
+    margin-top: 80px;
+}
+
+.cadastro-page input,
+.cadastro-page select {
+    background-color: #e8f4ff;
+}
+
+/* Feed */
+.feed-page {
+    background-image: url("https://thumbs.dreamstime.com/z/fondo-de-degradado-azul-turquesa-ilustraci%C3%B3n-del-vector-197775008.jpg?w=400");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px 20px;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+article {
+    background-color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.usuario img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+textarea {
+    resize: none;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .usuario {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        width: 95%;
+    }
+}
